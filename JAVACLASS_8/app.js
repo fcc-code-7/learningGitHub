@@ -1,3 +1,4 @@
+
 // Switch
 
 var days;
@@ -26,4 +27,39 @@ switch(days){
         break;
     default:
         console.log("Write correct day.")
+}
+
+
+// While
+
+var i=0;
+while(i<=5){
+    if(i==5){
+    console.log("I'm working properly");
+    }
+    else{
+        console.log(i);
+    }
+    i++;
+}
+var i=0;
+do{
+    if(i==5){
+        console.log("I'm working properly");
+        }
+        else{
+            console.log(i);
+        }
+        i++;
+}while(i<=5)
+
+
+//function call
+
+function greet(){
+    alert("Thats working properly.");
+}
+
+function print(){
+    console.log("Thats working properly");
 }
